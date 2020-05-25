@@ -28,12 +28,12 @@ void leerHumedadSuelo()
 
 int getValorSensorHumedad()
 {
-    leerHumedadSuelo();
-    return valorSensorHumedad;
+    leerHumedadSuelo();             //actualiza variables
+    return valorSensorHumedad;      //devuelve el valor del sensor sin transformar
 }
 
 int getPorcentajeHumedad()
 {
-    leerHumedadSuelo();
-    return porcentajeValorSensorHumedad;
+    leerHumedadSuelo();                     //actualiza variables
+    return porcentajeValorSensorHumedad;    //devuelve el porcentaje de humedad
 }
