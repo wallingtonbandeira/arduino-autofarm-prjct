@@ -36,6 +36,7 @@ void loop()
         if (4294967295 - TIEMPO_ENTRE_LECTURAS >= ultimaLectura)
         {
             ultimaLectura = 0;
+            ultimoRiego = 0;
         }
     }
 }
